@@ -1,4 +1,4 @@
-## Pi-hole Configuration
+## Pi-hole On Raspberry PI zero 2 W Configuration
 
 ### Install OpenSSH Client
 
@@ -31,6 +31,12 @@
 
 - 2C:CF:67:D3:AA:46
 - 192.168.1.237
+
+sudo systemctl status pihole-FTL
+
+sudo systemctl start pihole-FTL
+sudo systemctl stop pihole-FTL
+sudo systemctl restart pihole-FTL
 
 
 [DNS Regex - youtube](https://www.youtube.com/watch?v=o-bxDuH_T6I)
